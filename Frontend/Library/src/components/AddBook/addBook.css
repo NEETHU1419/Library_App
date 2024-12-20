@@ -1,0 +1,43 @@
+.addForm {
+    width: 500px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .addForm:hover {
+    transform: scale(1.02);
+  }
+  
+  .formAlign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0ab8b2 0%, #2cff4f 100%);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .btn-primary {
+    background-color: #ff4d1e;
+    border-color: #ff4d1e;
+  }  

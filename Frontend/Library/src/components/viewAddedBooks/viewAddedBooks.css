@@ -1,0 +1,33 @@
+.card1{
+    width: 18rem;
+}
+
+.rec_Name{
+    font-weight: bold;
+    color: crimson;
+}
+
+.main_ttl{
+    background: linear-gradient(135deg, #0ab8b2 0%, #2cff4f 100%) !important;
+    background-clip: text !important;
+    color: transparent !important;
+  }
+.expl{
+    font-weight: bold;
+}
+
+.feedbtn{
+    background-color: transparent !important;
+    border: 2px solid red !important;
+    border-radius: 5px;
+    color: red;
+    padding: 5px 10px;
+    cursor: 'pointer';
+    margin-top: 20px;
+}
+
+.feedbtn:hover{
+    background-color: red !important;
+    color: #fff;
+    border: none !important;
+}
